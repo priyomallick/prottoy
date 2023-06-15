@@ -199,15 +199,16 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .footer{
     text-align: center;
-    margin: 90px;
     background-color: bisque;
+    margin-top: 90px;
     height: 100px;
     border-radius: 10px;
    color: grey;
    padding-top: 50px;
-   padding-bottom: 0px;
 }
-
+.ses-footer{
+    
+}
 
 
 
@@ -255,6 +256,4 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         width: 100%;
     }
     
-
-
 }
