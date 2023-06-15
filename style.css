@@ -1,0 +1,260 @@
+/* headersection */
+.architec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+.g3{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.unorderlist li{
+    list-style: none;
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+.unorderlist ul{
+    display: flex;
+}
+/* brandsection */
+.first{
+    background-color: antiquewhite;
+}
+.brand{
+    margin-top: 20px;
+}
+.brand, .text-dis{
+   margin: auto;
+   height: 170px;
+}
+.text-dis{
+   display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.text-dis h2{
+    text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.text-dis p{
+    text-align: center;
+    font-size: 1vw;
+    font-family: sans-serif;
+    color: gray;
+}
+button{
+    width: 160px;
+    height: 50px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.button-center{
+    display: flex;
+    justify-content: center;
+}
+
+.banner{
+    margin-top: 0px;
+}
+.banner > div > img{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+    max-width: 862px;
+    margin-top: 40px;
+}
+/* quick section */
+.second-div{
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.image-dis{
+    display:flex ;
+    align-items: center;
+   
+
+}
+.pera{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+.of{
+    color: rgb(8, 8, 8);
+}
+.fea{
+    color: tomato;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+/* feteachersection */
+.third{
+    display: flex;
+   justify-content: space-between;
+    padding: 10px;
+    margin-top: 50px;
+}
+.single-image img{
+   height: 600px;
+}
+.dextop-all{
+  padding: 7px;
+    margin-top: 5px;
+    box-shadow: 5px 5px 15px grey ;
+}
+.third-sec-feature p{
+    color: gray;
+}
+.third-sec-feature h2{
+    border-left: 5px solid tomato;
+}
+.third-sec-feature{
+    height: 650px;
+    overflow: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.dextop-all h4{
+font-weight: bold;
+}
+.button-single{
+    display: flex;
+    height: 100px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+.experiance{
+    display: flex;
+    margin-top: 20px;
+   justify-content: center;
+   padding: 10px;
+}
+.ten-years{
+    font-size: 40px;
+    color: white;
+}
+.Explore{
+    font-size: 20px;
+    color: black;
+}
+/* sessh er dike */
+.all-fact{
+    margin-top: 40px;
+    text-align: center;
+}
+.some-facts{
+font-size: 60px;
+font-weight: 900;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.pera{
+    font-size: 20px;
+}
+.awars{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.all-images{
+    border: 1px solid red;
+    width: 200px;
+    box-shadow: 5px 5px 10px grey;
+}
+.all-images img{
+   width: 60px;
+}
+.sponser{
+    margin-top: 80px;
+}
+.google img{
+   width: 200px;
+}
+.aline{
+    align-items: center;
+
+}
+.footer{
+    text-align: center;
+    margin: 90px;
+    background-color: bisque;
+    height: 100px;
+    border-radius: 10px;
+   color: grey;
+   padding-top: 50px;
+   padding-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 625px) {
+    .architec{
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        margin: 0;
+       
+    }
+    .unorderlist ul{
+        flex-direction: column;
+    }
+    .unorderlist li{
+        padding-top: 10px;  
+    }
+    img{
+        width: 100%;
+       
+        margin-top: 40px;
+    }
+    .second-div{
+        flex-direction: column;
+    }
+    .image-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .image-dis{
+   margin-top: 30px;
+    }
+    .third{
+        flex-direction: column;
+    }
+    .awars{
+        flex-direction: column;
+        
+    }
+    .all-images{
+        margin-top: 15px;
+        width: 100%;
+    }
+    
+
+
+}
